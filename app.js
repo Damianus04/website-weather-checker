@@ -49,7 +49,7 @@ window.addEventListener("load", () => {
           console.log(iconContent);
           iconContent.setAttribute(
             "src",
-            `http://openweathermap.org/img/wn/${icon}@2x.png`
+            `https://openweathermap.org//img/wn/${icon}@2x.png`
           );
 
           //Change Fahrenheit to Celcius
