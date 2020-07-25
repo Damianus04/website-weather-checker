@@ -22,7 +22,7 @@ window.addEventListener("load", () => {
       //   const proxy = "https://cors-anywhere.herokuapp.com/";
       //   const api = `${proxy}http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=c10ce26d6adf6c7a838888f795aa2f8a`;
 
-      const api = `http://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=c10ce26d6adf6c7a838888f795aa2f8a`;
+      const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=c10ce26d6adf6c7a838888f795aa2f8a`;
 
       fetch(api)
         .then((response) => {
